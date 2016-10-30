@@ -25,3 +25,20 @@
     find .war file in target/scala-x.xx/scalatra_todo_x.xx-x.x.war
     Deploy on tomcat or other web server application.
 
+### Usage
+   Test the scalatra_todo endpoint: 
+                                                                                             
+    curl http://localhost:8080/todos
+
+   You receive the following JSON response, which indicates you are not authorized to access the resource:
+    
+    {
+      "1": {
+            "id": 1,
+            "subject": "Test Todo",
+            "content": "This application make by tin hanchanachai for test.",
+            "status": "done"
+       }
+    }
+    
+  
