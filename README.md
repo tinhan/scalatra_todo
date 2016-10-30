@@ -25,6 +25,19 @@
     find .war file in target/scala-x.xx/scalatra_todo_x.xx-x.x.war
     Deploy on tomcat or other web server application.
 
+### REST Service Information
+
+| Method         | URL          | Activity  |
+| ------------- |:-------------:|-----|
+| GET    | /todos           | list all todo task |
+| GET    | /todo/:Id        | get todo task by ID |
+| DELETE | /todo/:Id        | delete todo task by ID |
+| POST   | /todo/create     | Create todo task |
+| PUT    | /todo/status/:Id | update todo status by ID
+| PUT    | /todo/update/:Id | update todo task by ID
+
+
+
 ### Usage
    Test the scalatra_todo endpoint: 
                                                                                              
