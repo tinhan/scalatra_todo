@@ -12,13 +12,16 @@
     - Clone a repository
     
     Localhost run :                                                                                                           
-      go to <Project path> run command                                                                                               ./sbt                                                                                                                   
-      > jetty:start                                                                                                           
+      go to <Project path> run command  
+      ./sbt                                                                                                                   
+      > jetty:start       
+      
     go to Browser access to http://localhost:8080/
    
     Production Build :
-    go to <Project path> run command
-    ./sbt package
+      go to <Project path> run command
+      ./sbt package
+      
     find .war file in target/scala-x.xx/scalatra_todo_x.xx-x.x.war
     Deploy on tomcat or other web server application.
 
