@@ -7,7 +7,14 @@
    - Install scala project used version 2.11.8                                                                               
    - Installing Scalatra <a href="http://www.scalatra.org/getting-started/installation.html">click</a>                       
    - Install build Tool Download <a href="http://www.scala-sbt.org/index.html">click</a> 
-   
+
+
+### Developer Document
+
+If your developer and need to set up your computo to coding with scalatra framwork click <a href="https://github.com/tinhanc/scalatra_todo/blob/master/Dev.MD">here</a>.
+
+
+
 ### Build and Run
     - Clone a repository
     
@@ -24,6 +31,8 @@
       
     find .war file in target/scala-x.xx/scalatra_todo_x.xx-x.x.war
     Deploy on tomcat or other web server application.
+
+
 
 ### REST Service Information
 
